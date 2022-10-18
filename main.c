@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(void) {
-	int flag = 1;
-	int y;
+	int i;
 	
-	while(flag != 0);
+	for (i=0;i<5;i++)
 	{
-		y = 3;
-		flag = 0;
+		int temp = 1;
+		printf("temp = %d\n", temp);
+		temp++;
 	}
-	y=4;
 	return 0;
 }
